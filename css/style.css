@@ -1,0 +1,18 @@
+body{
+	color:#fff;
+}
+.seccion{
+	height: 100vh;
+	text-align: center;
+}
+.seccion{
+	background-image: url("../img/city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pie{
+	background: black;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}

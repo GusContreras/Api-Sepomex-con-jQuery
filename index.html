@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Formulario</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-flex.css">
+    <link rel="stylesheet" href="css/style.css">
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="sepomex.js"></script>
+  </head>
+  <body>
+      
+    <!-- Formulario -->
+    <div class="container-fluid">
+      <div class="row flex-items-xs-center seccion flex-items-xs-middle">
+        <div class="row">
+          <div class="col-xs-12"><h1 id="mensaje">Uso de Api Sepomex</h1></div>
+          <form class="col-xs-12" id="formulario" action="recibe.php" method="post">
+            <div class="form-group">
+              <label>Estado</label>
+                <select class="form-control" id="estado" name="estado">
+                </select>
+            </div>
+            <div class="form-group">
+              <label>Municipio</label>
+                <select class="form-control" id="municipio" name="municipio">
+                </select>
+            </div>
+            <div class="form-group">
+              <label>Colonia</label>
+                <select class="form-control" id="colonia" name="colonia">
+                </select>
+            </div>
+            <div class="form-group">
+              <label>Código Postal por Municipio</label>
+                <select class="form-control" id="cp" name="cp">
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- FIN DEL FORMULARIO -->
+    
+    <!-- PIE -->
+    <div class="container-fluid pie">
+      <div><h6>Hipermedia D01</h6></div>
+    </div>
+    <!-- FIN DE PIE -->
+     
+    <script src="ajax.js"></script>
+  </body>
+</html>
